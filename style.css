@@ -114,6 +114,45 @@ h2 {
   color: var(--primary-color);
 }
 
+.audio-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.audio-container {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.speed-control {
+  margin-top: 3px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+}
+
+.speed-control label {
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.styled-select {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.styled-select:hover {
+  border-color: #888;
+  outline: none;
+}
+
 .demo {
   margin: 3rem 0;
   text-align: center;
